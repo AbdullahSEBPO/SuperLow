@@ -28,6 +28,15 @@ function preload() {
         if(imageLoaded == imageCount) {
         }
         
+         TweenMax.to('.fade2', 1, { x: 149, delay: 2 });
+    TweenMax.to('.fade3', 1, { x: -148, delay: 2 });
+    TweenMax.to('.fade2', 1, { x: 600, delay: 4 });
+    TweenMax.to('.fade3', 1, { x: -600, delay: 4 });
+     
+    var tl = new TimelineMax();
+    tl.to('.fadex', 1, {autoAlpha:1, delay:1 });
+    tl.to('.fade1', 2, {autoAlpha:1, delay:3});
+        
     }
     
 
@@ -52,20 +61,4 @@ function preload() {
     }
     
 
-    
-    // ---------------------ANIMATIONS
-    
-    // tl.to('.fade1', .5, {autoAlpha: 1, delay: 1,});
-    // tl.to('.fade1', .5, {autoAlpha:0, delay:2});
-    // tl.to('.fade2', 1, {autoAlpha: 1, delay: 1,});
-    // tl.to('.fade2', .5, {autoAlpha:0, delay:2});
-    // tl.to('.fade3', 1, {autoAlpha: 1, delay: 1,});
-    // tl.to('.fade3', 0.5, {autoAlpha: 0, delay: 2,});
-
-    TweenMax.to('.fade2', 1, { x: 149, delay: 1 });
-    TweenMax.to('.fade3', 1, { x: -148, delay: 1 });
-    TweenMax.to('.fade2', 2, { x: 600, delay: 3 });
-    TweenMax.to('.fade3', 2, { x: -600, delay: 3 });
-     
-    var tl = new TimelineMax();
-    tl.to('.fade1', 2, {autoAlpha:1, delay:4});
+ 
