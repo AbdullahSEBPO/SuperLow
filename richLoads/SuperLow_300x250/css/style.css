@@ -1,0 +1,74 @@
+@font-face { font-family: Effra-MediumItalic; src: url('Effra-MediumItalic.woff'); } 
+
+#main {
+    width: 900px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+}
+
+#background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+}
+#cta {
+    position: absolute;
+    top: 191px;
+    width: 119px;
+    height: 34px;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 2.3em;
+    opacity: 1;
+    font-family: "Effra", sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;   
+    margin-left: 165px;
+    white-space: nowrap;
+    letter-spacing: .001em;
+}
+
+#logo1 {
+    position: absolute;
+    left: -3px;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+    opacity: 1;
+    z-index: 10;
+}
+
+#frame1Line1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+
+#frame1Line2 {
+    position: absolute;
+    left: -149px;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+    opacity: 1;
+}
+#frame2 {
+    position: absolute;
+    left: 148px;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+    opacity: 1;
+}
