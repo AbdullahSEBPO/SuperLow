@@ -14,7 +14,7 @@ FT.manifest({
         {
             "name": "cta_txt",
             "type": "text",
-            "default": "Get a Quote >"
+            "default": "Get a Quote"
         },
         {
             "name": "ctaTxt_size_hex",
